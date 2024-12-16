@@ -11,7 +11,7 @@ public class Employee {
 		return eid;
 	}
 	public void setEid(int eid) {
-		this.eid = eid;
+		 this.eid = eid;
 	}
 	public String getEname() {
 		return ename;
@@ -43,6 +43,7 @@ public class Employee {
 	public void setLocation(String location) {
 		Location = location;
 	}
+	
 	
 	
 	

@@ -1,11 +1,13 @@
 package com.client;
 
 import com.operation.EmployeeOperation;
+
+import java.sql.SQLException;
 import java.util.*;
 
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		EmployeeOperation eo = new EmployeeOperation();
 		
 	Scanner sr = new Scanner(System.in);
